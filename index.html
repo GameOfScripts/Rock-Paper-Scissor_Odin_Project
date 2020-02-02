@@ -4,9 +4,11 @@
         <title>rockpaperscissor</title>
     </head>
 <body>
-    <scrip>
+    <script>
         //Programm code goes here.
-
-    </scrip>
+        var items = ['Rock', 'Paper', 'Scissor'];
+        let computerPlay = () =>  items[Math.floor(Math.random()*items.length)];
+        console.log(computerPlay());
+    </script>
 </body>
 </html>
